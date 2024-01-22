@@ -1,0 +1,26 @@
+body {
+    background: white;
+}
+
+#chatbox {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+input {
+    padding: 3px;
+    border-radius: 5px;
+}
+button {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #30CFD0 0%, #8237dd 100%);
+    padding: 4px;
+    border-radius: 10px;
+}
+button:hover {
+    transform: scale(1.2);
+}
+ 
